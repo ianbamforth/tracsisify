@@ -6,7 +6,7 @@
   "description": "Replace client-specific header image with the Tracsis logo",
 
   "content_scripts": [{
-    "css": ["styles.css"],
+    "js": ["content.js"],
     "matches": ["https://rm.abellioprost.com/wm/*"]
   }]
 
